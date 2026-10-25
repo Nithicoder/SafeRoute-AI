@@ -262,13 +262,31 @@ Below is a recommended report outline for submitting SafeRoute AI as an academic
 
 ---
 
-## 8. Git Repository Notice
+## 8. Deployment & Hosting (Vercel)
 
-Sample repository placeholder:
-`https://github.com/your-username/saferoute-ai` *(Replace with your institution or personal repository URL upon submission)*.
+This repository is optimized for seamless deployment on [Vercel](https://vercel.com/):
+
+### One-Click Import via Vercel Dashboard
+1. Log in to your [Vercel Dashboard](https://vercel.com/dashboard).
+2. Click **"Add New..."** → **"Project"**.
+3. Import the repository: `Nithicoder/SafeRoute-AI`.
+4. Vercel will automatically detect the configuration via `vercel.json` and Vite preset:
+   - **Framework Preset**: Vite
+   - **Build Command**: `npm run build`
+   - **Output Directory**: `dist`
+   - **Install Command**: `npm install`
+5. Click **"Deploy"**. The application will be live in under 60 seconds with SSL and global CDN.
 
 ---
 
-## 9. License
+## 9. Official Repository
+
+- **Repository**: [https://github.com/Nithicoder/SafeRoute-AI](https://github.com/Nithicoder/SafeRoute-AI)
+- **Author**: Nithicoder
+- **Branch**: `main`
+
+---
+
+## 10. License
 
 This project is released under the **MIT License** for academic and educational evaluation.
